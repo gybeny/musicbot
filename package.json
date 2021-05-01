@@ -1,0 +1,19 @@
+{
+  "name": "music-bot",
+  "main": "index.js",
+  "author": "csodaorszag",
+  "version": "2.1.1",
+  "repository": "https://github.com/gybeny/csodaorszag-music.git",
+  "description": "music player for csodaorszag",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-player": "^3.4.0",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.3.0",
+    "opusscript": "0.0.8"
+  }
+}
